@@ -5,9 +5,11 @@
 
 trigger: none
 pr:
-  - main
-  - develop
-  
+  branches:
+    include:
+    - develop/*
+    - main/*
+      
 pool:
   vmImage: ubuntu-latest
 
