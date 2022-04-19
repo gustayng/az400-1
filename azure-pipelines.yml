@@ -6,6 +6,7 @@
 trigger: none
 pr:
   - main
+  - develop
   
 pool:
   vmImage: ubuntu-latest
